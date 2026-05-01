@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>साक्षी & संकेत - शुभविवाह निमंत्रण</title>
+    <meta name="description" content="Wedding Invitation of Sakshi and Sanket">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Marathi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Mukta:wght@300;400;500;600;700&family=Yatra+One&family=Rozha+One&family=Eczar:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- AOS Library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="mandala-spinner"></div>
+            <p>श्री गजानन प्रसन्न...</p>
+        </div>
+    </div>
+
+    <!-- Background Layers -->
+    <div class="bg-layer" id="bg-layer-1"></div>
+    <div class="bg-gradient-overlay"></div>
+
+    <div class="corner-decoration top-left"></div>
+    <div class="corner-decoration top-right"></div>
+    <div class="corner-decoration bottom-left"></div>
+    <div class="corner-decoration bottom-right"></div>
+
+    <div class="floating-petals" id="petals-container"></div>
+
+    <main class="content-wrapper">
+
+        <!-- Section 1: Hero / Invocation -->
+        <section class="hero-section" id="home">
+            <div class="god-invocation" data-aos="fade-down" data-aos-duration="1500">
+                <img src="assets/ganesha_motif_1777645871733.png" alt="Lord Ganesha" class="ganesha-icon">
+                <div class="deity-names">
+                    <p>|| श्री गजानन प्रसन्न ||</p>
+                    <div class="deity-row">
+                        <span>|| श्रीकामाक्षी प्रसन्न ||</span>
+                        <span class="swastik-text" style="font-size: 1.5rem; color: var(--gold-solid);">卐</span>
+                        <span>|| श्री काळभैरव प्रसन्न ||</span>
+                    </div>
+                    <div class="deity-row">
+                        <span>|| श्री महालक्ष्मी प्रसन्न ||</span>
+                        <span>|| श्री रायरेश्वर प्रसन्न ||</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-text" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
+                <div class="invitation-text">स. न. वि. वि.<br>आमचे घरी श्रीकृपेकरून</div>
+                <h1 class="bride-name name-glow">साक्षी</h1>
+                <div class="wed-amp">&amp;</div>
+                <h1 class="groom-name name-glow">संकेत</h1>
+                <div class="sub-text">यांचा शुभविवाह</div>
+            </div>
+
+            <div class="scroll-indicator" onclick="scrollToSection('details')">
+                <p>पुढे पहा</p>
+                <div class="arrow-down"></div>
+            </div>
+        </section>
+
+        <!-- Section 2: Details & Parents -->
+        <section class="details-section" id="details">
+            <div class="glass-card" data-aos="fade-up" data-aos-duration="1200">
+                <div class="family-intro">
+                    <p class="parent-name">श्री. संतोष विनायक पाटणकर यांची सुकन्या</p>
+                    <h2 class="person-name">चि. सौं. कां. साक्षी</h2>
+                    <p class="grandparent-name">(ति. कै. सुनिता व ति. कै. विनायक सदाशिव पाटणकर यांची नात)</p>
+                </div>
+
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-icon">❈</span>
+                    <span class="divider-line"></span>
+                </div>
+
+                <div class="family-intro">
+                    <p class="parent-name">ति. कै. श्री. संजय गजानन पेडणेकर यांचे सुपुत्र</p>
+                    <h2 class="person-name">चि. संकेत</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Event Date & Venue -->
+        <section class="event-section" id="event">
+            <div class="event-details" data-aos="zoom-in-up" data-aos-duration="1500">
+                <h3 class="section-title">|| शुभविवाह सोहळा ||</h3>
+                <div class="datetime">
+                    <p>मिती वैशाख कृ. एकादशी, शके १९४७ रविवार,</p>
+                    <p class="highlight-date">दि. १३/०५/२०२६ रोजी</p>
+                    <p>सकाळी १० वाजून २९ मिनिटे या शुभ मुहूर्तावर संपन्न होणार आहे.</p>
+                </div>
+
+                <p class="invitation-para">
+                    या शुभप्रसंगी आपण वधु-वरास शुभाशीर्वाद देण्यासाठी अगत्य येण्याचे करावे.
+                    तसेच या निमित्ताने आयोजित केलेल्या स्नेहभोजनाचा लाभ घ्यावा, हे आग्रहाचे निमंत्रण !
+                </p>
+
+                <div class="cards-container">
+                    <div class="info-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="card-icon">📍</div>
+                        <h4>विवाह स्थळ</h4>
+                        <p>दैवज्ञ बोर्डिंग<br>मंगळवार पेठ, कोल्हापूर.</p>
+                    </div>
+                    <div class="info-card" data-aos="flip-right" data-aos-delay="400">
+                        <div class="card-icon">🍽️</div>
+                        <h4>स्नेहभोजन</h4>
+                        <p>सकाळी १०.३० ते<br>दुपारी २.३० पर्यंत.</p>
+                    </div>
+                </div>
+
+                <!-- Google Map iFrame -->
+                <div class="map-container" data-aos="zoom-in" data-aos-delay="600">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Daivadnya%20Boarding,%20Mangalwar%20Peth,%20Kolhapur&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="350"
+                        style="border:1px solid rgba(212, 175, 55, 0.4); border-radius: 15px; margin-top: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Poetry and RSVP -->
+        <section class="poetry-section" id="rsvp">
+            <div class="poetry-content" data-aos="fade-in" data-aos-duration="1500">
+                <div class="poetry-lines">
+                    <p>पाऊस हा क्षणाचा पण गारवा कायमचा ।</p>
+                    <p>भेट ही क्षणाची पण मैत्री दोन जीवांची ।</p>
+                    <p>मुहूर्त हा क्षणाचा आणि नाती आयुष्याची ।</p>
+                    <p>आपला सहभाग क्षणाचाच पण आशिर्वाद कायमचा ।</p>
+                    <p class="poetry-highlight">या मनस्वी इच्छेने येऊन वधुवरांस शुभाशिर्वाद द्यावेत !</p>
+                </div>
+            </div>
+
+            <div class="family-grid">
+                <div class="family-column" data-aos="slide-right">
+                    <h4>* आपले स्वागतोत्सुक *</h4>
+                    <p>श्री. संतोष विनायक पाटणकर</p>
+                    <p>सौ. स्नेहल संतोष पाटणकर</p>
+                    <div class="address-box mt-4">
+                        <h4>* निवास *</h4>
+                        <p>सराफ कट्टा, अंबाबाई बोळ,</p>
+                        <p>तानवडे शिक्रे समोर, सांगली- ४१६ ४१६.</p>
+                        <p>मोबा. : ७८२१९२४१९१, ९९७०११८७२६</p>
+                    </div>
+                </div>
+                <div class="family-column" data-aos="slide-left">
+                    <h4>* आपले स्नेहांकित *</h4>
+                    <p>श्री. रमाकांत सदाशिव पाटणकर</p>
+                    <p>सौ. राजश्री रमाकांत पाटणकर</p>
+                    <p>श्री. निलेश मोहन पाटणकर</p>
+                    <p class="samast">समस्त पाटणकर, कारेकर, कडणे, वैद्य, नेसरीकर, शिरोडकर, पोतदार आणि पेडणेकर परिवार.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-blessing">
+                || शुभं भवतु ||
+            </div>
+        </section>
+    </main>
+
+    <!-- Audio Player -->
+    <div class="audio-control-container" id="audio-control">
+        <span class="audio-label" id="audio-label">Music: Off</span>
+        <div class="audio-btn">
+            <span id="audio-icon">🔇</span>
+        </div>
+    </div>
+    <!-- Soft traditional indian instrumental music -->
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
